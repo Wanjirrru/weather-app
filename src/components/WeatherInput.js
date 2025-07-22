@@ -8,7 +8,7 @@ function WeatherInput() {
     };
 
     return ( 
-        <div className="p-4">
+        <div className=" float float-right p-8 bg-pink-300 min-h-screen">
             <input
                 type="text"
                 value={city}
@@ -16,7 +16,7 @@ function WeatherInput() {
                 className="border rounded p-2 mr-2"
                 placeholder="Enter city name"
             />
-            <button className="bg-blue-500 text-white p-2 rounded">
+            <button className="bg-pink-200 text-gray-500 p-2 rounded">
                 Get Weather
             </button>
         </div>
